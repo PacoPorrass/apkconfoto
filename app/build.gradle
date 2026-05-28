@@ -9,7 +9,7 @@ android {
         applicationId "com.personal.vaultdrive"
         minSdk 26; targetSdk 34; versionCode 1; versionName "1.0"
         buildConfigField "String", "CLIENT_ID", '"af124e86-4e96-495a-b70a-90f90ab96707"'
-        manifestPlaceholders = [msalRedirectUri: "msauth://com.personal.vaultdrive/TU_KEYHASH_BASE64"]
+        manifestPlaceholders = [msalRedirectUri: "msauth://com.empresa.vaultdrive/gi1mL6gXo8UOoPxVgGvd6zEA"]
     }
     buildFeatures { viewBinding true; buildConfig true }
     buildTypes { debug { debuggable true } }
