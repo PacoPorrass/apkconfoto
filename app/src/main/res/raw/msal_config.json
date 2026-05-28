@@ -1,0 +1,20 @@
+{
+  "client_id": "af124e86-4e96-495a-b70a-90f90ab96707",
+  "authorization_user_agent": "WEBVIEW",
+  "redirect_uri": "msauth://com.personal.vaultdrive/TU_KEYHASH_BASE64",
+  "account_mode": "SINGLE",
+  "broker_redirect_uri_registered": false,
+  "authorities": [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "PersonalMicrosoftAccount"
+      },
+      "default": true
+    }
+  ],
+  "logging": {
+    "pii_enabled": false,
+    "log_level": "WARNING"
+  }
+}
