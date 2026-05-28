@@ -19,7 +19,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="com.personal.vaultdrive" android:path="/TU_KEYHASH_BASE64" android:scheme="msauth"/>
+                <data android:host="com.personal.vaultdrive" android:path="/gi1mL6gXo8UOoPxVgGvd6zEA" android:scheme="msauth"/>
             </intent-filter>
         </activity>
         <provider android:name="androidx.core.content.FileProvider" android:authorities="${applicationId}.fileprovider"
